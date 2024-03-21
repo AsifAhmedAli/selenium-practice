@@ -2,7 +2,7 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Chroma Tech Academy</title>
   
-  <link rel="icon" href="./Practice Page_files/PNG-01.png" type="image/x-icon">
+  <link rel="icon" href="./Practice Page_files/P6.png" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
@@ -19,9 +19,9 @@
     function openWindow() {
         myWin = window.open("https://www.chromatechacademy.net/", "myWin", "width=1200, height=600, top=100, left=100, scrollbars=yes, resizable=yes");
     }
-    function myFunction() {
-        myWin = window.open("http://www.qaclickacademy.com/", "myWin", "width=1200, height=600, top=100, left=100, scrollbars=yes, resizable=yes");
-    }
+    // function myFunction() {
+    //     myWin = window.open("http://www.qaclickacademy.com/", "myWin", "width=1200, height=600, top=100, left=100, scrollbars=yes, resizable=yes");
+    // }
     function displayAlert() {
         var value = document.getElementById("name").value;
         alert("Hello " + value + ", share this practice page and share your knowledge");
@@ -458,7 +458,17 @@ a#opentab {
 			50%{opacity: 0.8;}
 			100%{opacity: 1;}
 		}
-
+    #content{
+  background-image: url("./Practice Page_files/Group-48095597-1 copy.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #17181A;
+  color: white !important;
+}
+.choices__list{
+  color: black;
+}
     </style>
     <link rel="stylesheet" href="./Practice Page_files/jquery-ui.css">
     
@@ -475,7 +485,7 @@ a#opentab {
   } );
   </script>
 </head>
-<body data-new-gr-c-s-check-loaded="14.1073.0" data-gr-ext-installed="">
+<body id="content">
 <header class="jumbotron text-center header_style" style="padding: 7rem 2rem">
       <a href="https://www.chromatechacademy.net/"><img src="./Practice Page_files/P1-edited.png" style="width:177px" class="logoClass"></a>
 	  
@@ -493,11 +503,11 @@ a#opentab {
     <div>
             <fieldset class="m-5">
                 <legend>Bootstrap multi-select drop-down example</legend>
-        <div class="btn-group" style="margin-left: 70px;">
-            <button class="btn btn-sm dropdown-toggle btn-outline-dark" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="btn-group" style="margin-left: 70px;" style="color: white;">
+            <button class="btn btn-sm dropdown-toggle btn-outline-light" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown button
             </button>
-            <div class="dropdown-menu">
+            <div class="dropdown-menu" >
                 <label class="dropdown-item"><input type="checkbox" /> Option 1</label>
                 <div class="dropdown-divider"></div>                
                 <label class="dropdown-item"><input type="checkbox" /> Option 2</label>
@@ -535,7 +545,7 @@ a#opentab {
         <div style="min-width:200px">
             <fieldset class="m-5">
         <legend>DropDown Multi-Select Example</legend>
- <select id="choices-multiple-remove-button" style="height: 90px;margin-left: 50px;" multiple>
+ <select id="choices-multiple-remove-button" style="height: 90px;margin-left: 50px;color: black;" multiple>
     <option value="HTML" selected>HTML</option>
     <option value="Jquery">Jquery</option>
     <option value="CSS">CSS</option>
@@ -1371,5 +1381,5 @@ aria.Utils.bindMethods = function (object /* , ...methodNames */) {
 };
 
 					</script>
-
+</body>
 </html>
